@@ -3,7 +3,7 @@ Hey everyone, i developed this project because of my big love to football, espac
 
 # about
 The project is a guessing game.
-The program pick one football team from seria a, you need to guess the same.
+The program pick one football team from serie a, you need to guess the same.
 After you get your pick, the program will show some deatils about the team it choose.
 Good luck!
 
