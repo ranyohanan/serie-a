@@ -8,7 +8,7 @@ After you get your pick, the program will show some deatils about the team it ch
 Good luck!
 
 # Project ingredients:
--JavaScript
+- JavaScript
 
 # More info:
 link: https://seriaa-guess-ran.netlify.app/
