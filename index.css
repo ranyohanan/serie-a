@@ -1,0 +1,371 @@
+body {
+    background-color: rgba(29, 18, 94, 0.9);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.guessArea {
+    border: 1px solid rgba(255, 255, 255, .7);
+    padding: 3rem;
+    background-color: rgb(29, 18, 94);
+    color: #00E8DA;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 16vh;
+    position: relative;
+    top: -5vh;
+    background-image: url(SerieA.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 200px;
+    background-position-x: -1vw;
+    background-position-y: 1vw;
+}
+
+h2 {
+    color: #00E8DA;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+.pDetails {
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.3rem;
+}
+
+#answer {
+    width: 7vw;
+}
+
+#input {
+    background-color: #00E8DA;
+    color: rgb(29, 18, 94);
+    font-family: 'Rajdhani', sans-serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+option {
+    font-size: 1.1rem;
+}
+
+#btn {
+    background-color: #00E8DA;
+    color: rgb(29, 18, 94);
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+#flowUp {
+    height: 0;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition: 2s ease-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#divTeam {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 16rem;
+}
+
+#details {
+    margin-left: 2rem;
+}
+
+#symbol {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+.fade-in {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    font-size: larger;
+    font-weight: 700;
+}
+
+@media (max-width:576px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -5vh;
+    }
+
+    .boxes {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .guessArea {
+        background-size: 25vw;
+        width: 80vw;
+        padding: 0;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input,
+    #btn,
+    #answer {
+        margin-bottom: 1rem;
+        margin-left: 3.5rem;
+        width: 10rem;
+    }
+
+    #flowUp {
+        margin-bottom: -25vh;
+        background-image: none;
+        width: 99vw;
+        justify-content: center;
+    }
+
+    #divTeam {
+        width: 80vw;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .pDetails {
+        color: rgba(255, 255, 255, .8);
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (min-width:577px) and (max-width:992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -5vh;
+    }
+
+    .boxes {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .guessArea {
+        background-size: 25vw;
+        width: 80vw;
+        padding: 0;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input,
+    #btn,
+    #answer {
+        margin-bottom: 1rem;
+        margin-left: 3.5rem;
+        width: 10rem;
+    }
+
+    #flowUp {
+        margin-bottom: -25vh;
+        background-image: none;
+        width: 99vw;
+        justify-content: center;
+    }
+
+    #divTeam {
+        width: 80vw;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .pDetails {
+        color: rgba(255, 255, 255, .8);
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -5vh;
+    }
+
+    .boxes {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .guessArea {
+        background-size: 20vw;
+        width: 80vw;
+        padding: 0;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input,
+    #btn,
+    #answer {
+        margin-bottom: 1rem;
+        margin-left: 3.5rem;
+        width: 10rem;
+    }
+
+    #flowUp {
+        margin-bottom: -25vh;
+        background-image: none;
+        width: 99vw;
+        justify-content: center;
+    }
+
+    #divTeam {
+        width: 50vw;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .pDetails {
+        color: rgba(255, 255, 255, .8);
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1477px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -5vh;
+    }
+
+    .boxes {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .guessArea {
+        background-size: 15vw;
+        width: 80vw;
+        padding: 0;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position-x: 3vw;
+        background-position-y: 2vw;
+    }
+
+    #input,
+    #btn,
+    #answer {
+        margin-bottom: 1rem;
+        margin-left: 3.5rem;
+        width: 13rem;
+    }
+
+    #flowUp {
+        margin-bottom: -25vh;
+        background-image: none;
+        width: 99vw;
+        justify-content: center;
+    }
+
+    #divTeam {
+        width: 50vw;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .pDetails {
+        color: rgba(255, 255, 255, .8);
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        margin-right: 0.5rem;
+    }
+}

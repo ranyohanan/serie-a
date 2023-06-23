@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>seria a</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="boxes">
+      <h1 class="fade-in" style="color: white;">seria a guess
+        program
+      </h1>
+      <div class="guessArea">
+        <select type="" name="input" id="input" onchange="yourGuess()">
+          <option value="">Any</option>
+          <option value="Atalanta">Atalanta</option>
+          <option value="Bologna">Bologna</option>
+          <option value="Cremonese">Cremonese</option>
+          <option value="Empoli">Empoli</option>
+          <option value="Fiorentina">Fiorentina</option>
+          <option value="Verona">Verona</option>
+          <option value="Inter">Inter</option>
+          <option value="Juventus">Juventus</option>
+          <option value="Lazio">Lazio</option>
+          <option value="Lecce">Lecce</option>
+          <option value="Milan">Milan</option>
+          <option value="Monza">Monza</option>
+          <option value="Napoli">Napoli</option>
+          <option value="Roma">Roma</option>
+          <option value="Salernitana">Salernitana</option>
+          <option value="Sampdoria">Sampdoria</option>
+          <option value="Sassuol">Sassuolo</option>
+          <option value="Spezia">Spezia</option>
+          <option value="Torino">Torino</option>
+          <option value="Udinese">Udinese</option>
+
+        </select>
+        <p id="answer">Pick Your Team</p>
+        <button onclick="refresh()" id="btn">Play Again</button>
+      </div>
+      <div id="flowUp">
+        <div id="divTeam">
+          <div id="symbol"></div>
+          <div id="details"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="guess.js"></script>
+</body>
+
+</html>
