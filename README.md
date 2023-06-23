@@ -11,6 +11,6 @@ Good luck!
 - JavaScript
 
 # More info:
-link: https://seriaa-guess-ran.netlify.app/
-App Language: English
-Author: Ran Yohanan
+- link: https://seriaa-guess-ran.netlify.app/
+- App Language: English
+- Author: Ran Yohanan
